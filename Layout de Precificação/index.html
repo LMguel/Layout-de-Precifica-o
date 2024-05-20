@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/64b3dbec0a.js" crossorigin="anonymous"></script>
+    <title>Employ - Tecnologia e Consultoria para Processos Seletivos</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mont:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-menu">
+                <img src="Employ-logo-cor-fundo-branco.png" alt="Logo da Employ" class="logo">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li class="dropdown">
+                            <a href="#planos">Planos</a>
+                            <ul class="submenu">
+                                <li><a href="#basic">Básico</a></li>
+                                <li><a href="#premium">Premium</a></li>
+                                <li><a href="#enterprise">Enterprise</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="auth-buttons">
+                <button class="login">Login</button>
+                <button class="signup">Cadastrar-me</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro" id="home">
+        <h2>Transforme seu processo seletivo<p>com a Employ</h2>
+        <p>A Employ possibilita que seus clientes selecionem os melhores talentos de forma fácil, rápida e assertiva. Em momento de forte expansão, a Employ já conquistou uma base relevante de clientes e está em busca de um profissional para se juntar à equipe de tecnologia e fazer parte desse crescimento.</p>
+    </section>
+
+    <section class="plans" id="planos">
+        <h2>Compare nossos Planos:</h2>
+        <div class="plans-container">
+        <div class="plan" id="basic">
+            <h3>Plano Básico</h3> 
+            <p class="price">R$99/mês</p>
+            <button class="subscribe" onclick="subscribe('basic')">Assinar</button>
+            <p>Ideal para pequenas empresas</p>
+            <ul>
+                <li>Gestão de Folha de Pagamento</li>
+                <li>Suporte Básico</li>
+                <li>Acesso para até 10 usuários</li>
+            </ul>
+        </div>
+        <div class="plan" id="premium">
+            <h3>Plano Premium</h3>
+            <p class="price">R$199/mês</p>
+            <button class="subscribe" onclick="subscribe('premium')">Assinar</button>
+            <p>Perfeito para médias empresas</p>
+            <ul>
+                <li>Gestão de Folha de Pagamento</li>
+                <li>Suporte Prioritário</li>
+                <li>Acesso para até 50 usuários</li>
+                <li>Relatórios Avançados</li>
+            </ul>
+            
+        </div>
+        <div class="plan" id="enterprise">
+            <h3>Plano Enterprise</h3>
+            <p class="price">R$499/mês</p>
+            <button class="subscribe" onclick="subscribe('enterprise')">Assinar</button>
+            <p>Para grandes empresas</p>
+            <ul>
+                <li>Gestão de Folha de Pagamento</li>
+                <li>Suporte Dedicado 24/7</li>
+                <li>Acesso Ilimitado</li>
+                <li>Relatórios Personalizados</li>
+                <li>Integrações com ERP</li>
+            </ul>
+            
+        </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <h2>Benefícios dos Planos</h2>
+        <div class="table-container">
+        <table>
+            <tr>
+                <th></th>
+                <th>Plano Básico</th>
+                <th>Plano Premium</th>
+                <th>Plano Enterprise</th>
+            </tr>
+            <tr>
+                <td>Gestão de Folha de Pagamento</td>
+                <td>✅</td>
+                <td>✅</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Suporte Básico</td>
+                <td>✅</td>
+                <td>✅</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Suporte Prioritário</td>
+                <td></td>
+                <td>✅</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Acesso para até 10 usuários</td>
+                <td>✅</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Acesso para até 50 usuários</td>
+                <td></td>
+                <td>✅</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Acesso Ilimitado</td>
+                <td></td>
+                <td></td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Relatórios Avançados</td>
+                <td></td>
+                <td>✅</td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Relatórios Personalizados</td>
+                <td></td>
+                <td></td>
+                <td>✅</td>
+            </tr>
+            <tr>
+                <td>Integrações com ERP</td>
+                <td></td>
+                <td></td>
+                <td>✅</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+
+    <<footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>©2024 All rights reserved. <a href="#sitemap">Sitemap</a>, <a href="#privacy">Privacy</a>, and <a href="#terms">Terms</a>.</p>
+            </div>
+            <div class="footer-center">
+                <img src="Employ-logo-cor-fundo-branco.png" alt="Logo da Employ" class="footer-logo">
+                <p class="footer-slogan">A melhor forma de achar o funcionário certo para o seu negócio.</p>  
+            </div>
+            <div class="footer-right">
+                
+                <a href="https://www.linkedin.com/company/hr-employ/" target="_blank">
+                    <img src="https://img.shields.io/badge/-Employ-1EA358?style=for-the-badge&logo=Linkedin&logoColor=white" width=50%/>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
